@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="" href="./index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>IMC</h1>
+            <form class="formulario"  method="POST">
+                <div class="inputs">
+                    <section class="data">
+                        <h2>Altura</h2>
+                        <input id="input-altura" class="input-data" type="number" name="altura" value="0.0" step="0.2"/>
+                    </section>
+                    <section class="data">
+                        <h2>Peso</h2>
+                        <input id="input-peso" class="input-data" type="number" name="peso" value="0.0" step="0.2" />
+                    </section>
+                  
+                    <section class="botoes">
+                        
+                            <button class="botao" id="incluir" >Incluir</button>
+                            <button class="botao"id="apagar" >Apagar</button>
+                            <button class="botao"id="apaga-ultima" >Apagar Última</button>
+                        
+                            <button class="botao"id="apaga-tudo" >Apagar Tudo</button>
+                        
+                    </section>
+                   
+                </div>
+            </form>
+            <table id="tabela" class="tabela">
+                <thead id="cabecalho">
+                    <tr id="linha-principal">
+                        <th>Altura</th>
+                        <th>Peso</th>
+                        <th>IMC</th>
+                        <th>Resultado</th >
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <script type="text/javascript" src="./index.js">
+       
+        </script>  
+       
+    </body>
+   
+</html>
